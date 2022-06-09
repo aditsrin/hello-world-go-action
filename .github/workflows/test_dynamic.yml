@@ -2,7 +2,8 @@
 on: workflow_dispatch
 jobs:
   codespaces:
-    runs-on:  self-hosted
+    runs-on:  ubuntu-latest
+    
     steps:
       - name: Print Hello World
         run: echo "Hello, world!"
