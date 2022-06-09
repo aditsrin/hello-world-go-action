@@ -5,7 +5,4 @@ on:
 
 jobs:
   example_job:
-    name: Trigger reusable workflow
-    runs-on: ubuntu-latest
-    steps:
-      - uses: aditsrin/StarterAction/.github/workflows/blank.yml@main
+    uses: aditsrin/StarterAction/.github/workflows/blank.yml@main
