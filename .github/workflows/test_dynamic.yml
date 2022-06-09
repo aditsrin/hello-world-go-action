@@ -1,0 +1,11 @@
+
+on: workflow_dispatch
+jobs:
+  codespaces:
+    runs-on:  self-hosted
+    steps:
+      - name: Print Hello World
+        run: echo "Hello, world!"
+
+      - name: Try to run CMW
+        uses: github/SampleAction/.github/workflows/blank.yml@main
