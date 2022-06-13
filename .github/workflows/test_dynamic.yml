@@ -5,4 +5,9 @@ on:
 
 jobs:
   example_job:
-    uses: aditsrin/StarterAction/.github/workflows/blank.yml@main
+    runs-on : self hosted
+    steps:
+      - name: Use RW
+        uses: aditsrin/StarterAction/.github/workflows/blank.yml@main
+      - name: Welcome print
+        run : echo "Hello, World!"
