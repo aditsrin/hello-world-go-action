@@ -8,7 +8,7 @@ jobs:
     uses: aditsrin/StarterAction/.github/workflows/blank.yml@main
     
   codespaces:
-    runs-on: self hosted
+    runs-on: ubuntu-latest
     steps:
         - name: Welcome world
           run: echo "Hello, world!"
