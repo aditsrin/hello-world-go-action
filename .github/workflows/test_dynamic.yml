@@ -28,7 +28,7 @@ jobs:
         uses: ruchika-jain/package-action@1.0.1
         id: publish-action
         with:
-          package-name: 'ghcr-action-pkg'
+          package-name: 'ghcr-action-pkg-JSbased'
 
       - name: Signing action
         uses: ruchika-jain/sign-package@1.0.1
